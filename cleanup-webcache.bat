@@ -11,6 +11,7 @@ mkdir C:\media-folder\gifs\
 mkdir C:\media-folder\mp4\
 mkdir C:\media-folder\avi\
 mkdir C:\media-folder\mov\
+mkdir C:\media-folder\3gp\
 
 
 :START
@@ -20,6 +21,7 @@ forfiles /S /P "C:\New folder" /m *.mov /c "cmd /c xcopy /F /S /Y /C @file C:\me
 forfiles /S /P "C:\New folder" /m *.mp4 /c "cmd /c xcopy /F /S /Y /C @file C:\media-folder\mp4"
 forfiles /S /P "C:\New folder" /m *.avi /c "cmd /c xcopy /F /S /Y /C @file C:\media-folder\avi"
 forfiles /S /P "C:\New folder" /m *.gif /c "cmd /c xcopy /F /S /Y /C @file C:\media-folder\gifs"
+forfiles /S /P "C:\New folder" /m *.gif /c "cmd /c xcopy /F /S /Y /C @file C:\media-folder\3gp"
 
 :EOF
 
