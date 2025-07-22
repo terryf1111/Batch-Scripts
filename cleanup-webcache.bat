@@ -23,5 +23,7 @@ forfiles /S /P "C:\New folder" /m *.avi /c "cmd /c xcopy /F /S /Y /C @file C:\me
 forfiles /S /P "C:\New folder" /m *.gif /c "cmd /c xcopy /F /S /Y /C @file C:\media-folder\gifs"
 forfiles /S /P "C:\New folder" /m *.gif /c "cmd /c xcopy /F /S /Y /C @file C:\media-folder\3gp"
 
+echo "Script is Finished"
+
 :EOF
 
